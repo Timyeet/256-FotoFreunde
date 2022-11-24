@@ -1,10 +1,10 @@
 body {
 	padding-top: 50px;
-	color: #959595;
+	color: navy;
 	}
 	
 h1, h2, h3, h4, h5, h6 {
-	color: black;
+	color: navy;
 	}
 	
 .feature {
@@ -41,5 +41,12 @@ h1, h2, h3, h4, h5, h6 {
 .article-intro,
 .footer-blurb,
 .small-print {
-	text-align: center;
+	text-align: left; font-size: 12pt; 
 	}
+	.
+	 p::first-letter {
+		font-size: 300%;
+		color: navy;
+		float: left;
+		font-weight: bold;
+	  }
